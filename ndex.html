@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>swtor scroll</title>
+</head>
+<body>
+<audio src="mysong.mp3" id="my_audio" muted="" autoplay="true" controls>
+    Your web browser is outdated or don't support OGG and MP3 codecs. 
+</audio>
+    <div id="prelude">Il y a bien longtemps, dans une galaxie lointaine, très lointaine...</div>
+    <div id="intro">
+        <canvas id="canvas"></canvas>
+        <div id="introContent">
+    <h2>Star Wars<br /><br />Histoires de l'ancienne République</h2>
+            <h2>La dyade de la Force</h2>
+            <p>L'empire Sith est de retour! Heureusement, la République peut compter sur les nouveaux membres de l'ancestral Ordre Jedi pour la défendre.</p>
+            <p>A l'Académie, certains élèves sortent déjà des rangs : Nosrad Vrosro, un jeune Zabraak de Dathomir posssèdant des talents de dueliste hors-pair, et Na'lin, une orpheline recueillie par le temple et initiée aux arts Jedi de la guérison.</p>
+            <p>Heureux de pouvoir faire leurs preuves auprès de l'Ordre, nos deux héros partent donc pour la planète Tython, sans se douter que leurs destins sont très étroitement liés...</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("my_audio").prop('muted', false);
+        //$("my_audio").prop('muted', true);
+        my_audio.muted = false;
+    </script>
+</body>
+</html>

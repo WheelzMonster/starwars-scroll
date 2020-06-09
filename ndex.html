@@ -9,7 +9,7 @@
     <title>swtor scroll</title>
 </head>
 <body>
-<audio src="mysong.mp3" id="my_audio" muted="" autoplay="" controls>
+<audio src="mysong.mp3" id="my_audio" muted="" autoplay="true" controls>
     Your web browser is outdated or don't support OGG and MP3 codecs. 
 </audio>
     <div id="prelude">Il y a bien longtemps, dans une galaxie lointaine, très lointaine...</div>
@@ -24,12 +24,12 @@
         </div>
     </div>
     <script type="text/javascript">
-       setTimeout(() => {
+        function music() {
             $("my_audio").prop('muted', false);
             //$("my_audio").prop('muted', true);
             my_audio.muted = false;
-            my_audio.autoplay = true
-       }, 10000);
+        }
+        setTimeout('music', 13000);
     </script>
 </body>
 </html>

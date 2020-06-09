@@ -9,9 +9,9 @@
     <title>swtor scroll</title>
 </head>
 <body>
-<audio src="mysong.mp3" id="my_audio" muted="" autoplay="" controls>
+<!-- <audio src="mysong.mp3" id="my_audio" muted="" autoplay="true" controls>
     Your web browser is outdated or don't support OGG and MP3 codecs. 
-</audio>
+</audio> -->
     <div id="prelude">Il y a bien longtemps, dans une galaxie lointaine, très lointaine...</div>
     <div id="intro">
         <canvas id="canvas"></canvas>
@@ -25,10 +25,9 @@
     </div>
     <script type="text/javascript">
         setTimeout(() => {
-            $("my_audio").prop('autoplay', false);
+            $("body").append("<audio src='mysong.mp3' id='my_audio' muted='' autoplay='true' controls></audio>")
             $("my_audio").prop('muted', false);
             //$("my_audio").prop('muted', true);
-            my_audio.autoplay = true
             my_audio.muted = false;
         }, 10000);
     </script>

@@ -96,7 +96,11 @@ body{
     -o-animation-iteration-count: 1;
 }
 
-#title{
+#title2{
+	font-size: 65px;
+}
+
+#title2{
 	font-size: 50px;
 }
 

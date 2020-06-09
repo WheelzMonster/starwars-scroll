@@ -70,6 +70,8 @@ body{
 	text-shadow: 0 0 1px #E7AE05;
 }
 
+
+
 #introContent{
 	opacity: 0;
 	font-size: 30px;
@@ -92,6 +94,10 @@ body{
     -o-animation-timing-function: linear;
     -o-animation-duration: 120s;
     -o-animation-iteration-count: 1;
+}
+
+#introContent #title{
+	font-size: 40px;
 }
 
 #skipIntro{
